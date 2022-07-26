@@ -22,3 +22,28 @@
 .header-menu >li:hover{
     color: var(--orange);
 }
+
+@media screen and (max-width:768px) {
+    .header{
+    
+    }
+    .header > .header-menu{
+        position: fixed;
+        right:14rem;
+        z-index: 10;
+        overflow: hidden;
+    }
+
+    .header-menu{
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+    }
+
+   .hamburger{
+    justify-content: flex-end;
+    background-color: var(--appColor);
+    padding: 0.5rem;
+    border-radius: 5px;
+   }
+}

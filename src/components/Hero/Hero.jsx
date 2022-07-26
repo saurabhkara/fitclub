@@ -9,6 +9,7 @@ import calories from '../../assets/calories.png'
 export default function Hero() {
   return (
     <div className="hero">
+      <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
 
@@ -28,9 +29,7 @@ export default function Hero() {
             <span>Ideal Body</span>
           </div>
           <div>
-            <span>
-              In here we will help you to shape and build your ideal body.
-            </span>
+            <span>In here we will help you to shape and build your ideal body</span>
           </div>
         </div>
 
